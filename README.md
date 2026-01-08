@@ -51,15 +51,14 @@ This installer automates the complete setup of the **Processing IDE** (v3.5.4) a
 
 ## 🚀 Installation
 
-### Step 1: Prepare Files
+### Step 1: FIND THE INSTALLER AND ADD IT TO THE PC
 
-Copy **ALL** files and folders from the USB drive to your computer:
+Copy the installer to your PC if you are using USB drive, If not continue to step 2.
+(This will make the installation run faster):
 
 - ✅ Desktop
 - ✅ Documents folder
 - ✅ Any easily accessible folder
-
-> ⚠️ **Important:** Keep all files together in the same folder!
 
 ### Step 2: Run the Installer
 
@@ -67,7 +66,7 @@ Copy **ALL** files and folders from the USB drive to your computer:
 <tr>
 <td width="50%">
 
-#### Option A: Graphical Installer ⭐ Recommended
+#### App: Graphical Installer ⭐ Recommended
 
 Double-click:
 
@@ -77,18 +76,6 @@ Startech Installer.exe
 
 </td>
 <td width="50%">
-
-#### Option B: Command Line
-
-Double-click:
-
-```
-install_processing.bat
-```
-
-</td>
-</tr>
-</table>
 
 > 💡 **Tip:** Right-click → **"Run as Administrator"** for best results
 
@@ -198,28 +185,6 @@ The graphical installer supports multiple languages:
 Click the language toggle in the installer to switch.
 
 ---
-
-## 📚 Getting Started with Processing
-
-New to Processing? Try this simple program:
-
-```java
-void setup() {
-  size(400, 400);
-  background(0);
-}
-
-void draw() {
-  fill(255, 100);
-  noStroke();
-  ellipse(mouseX, mouseY, 50, 50);
-}
-```
-
-1. Open Processing from your desktop shortcut
-2. Paste the code above
-3. Click the ▶️ **Play** button to run!
-4. Move your mouse to draw circles
 
 ### 📖 Helpful Resources
 
