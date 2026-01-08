@@ -1,56 +1,185 @@
-=============================================
-PROCESSING AUTO-INSTALL TOOL (64-bit)
-=============================================
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║   ███████╗████████╗ █████╗ ██████╗ ████████╗███████╗ ██████╗██╗  ██╗          ║
+║   ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔════╝██║  ██║          ║
+║   ███████╗   ██║   ███████║██████╔╝   ██║   █████╗  ██║     ███████║          ║
+║   ╚════██║   ██║   ██╔══██║██╔══██╗   ██║   ██╔══╝  ██║     ██╔══██║          ║
+║   ███████║   ██║   ██║  ██║██║  ██║   ██║   ███████╗╚██████╗██║  ██║          ║
+║   ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝          ║
+║                                                                               ║
+║                    PROCESSING AUTO-INSTALLER (64-bit)                         ║
+║                              Version 1.0.0                                      ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
 
-This tool helps you set up the Processing IDE and related files automatically.
 
-Before You Begin
-----------------
-1. Copy *all* the files and folders from this USB drive to your computer.
-   (You can copy them anywhere, for example: Desktop or Documents folder.)
+┌───────────────────────────────────────────────────────────────────────────────┐
+│  📋 OVERVIEW                                                                  │
+└───────────────────────────────────────────────────────────────────────────────┘
 
-2. Once copied, double-click the file:
-       install_processing.bat
-   The script will begin installing everything automatically.
+  This installer automates the setup of the Processing IDE (v3.5.4) along with
+  the Startech educational resources and templates. It's designed for classroom
+  environments to ensure consistent setup across all student computers.
 
-What the Tool Does
-------------------
-✔ Extracts and installs Processing (version 3.5.4)
-✔ Copies the required “Startech” folder to your Documents folder
-✔ Copies the “Template” folder (used for lessons)
-✔ Creates desktop shortcuts for:
-     - Processing
-     - Startech folder
-     - Template folder
-✔ Connects .PDE files to open automatically with Processing
+┌───────────────────────────────────────────────────────────────────────────────┐
+│  💻 SYSTEM REQUIREMENTS                                                       │
+└───────────────────────────────────────────────────────────────────────────────┘
 
-If Something Fails
-------------------
-At the end of the installation, you’ll see a summary message.
+  • Operating System:   Windows 10/11 (64-bit)
+  • RAM:                4 GB minimum (8 GB recommended)
+  • Disk Space:         ~500 MB for full installation
+  • Display:            1024x768 minimum resolution
+  • Permissions:        Administrator rights (recommended)
 
-If any steps fail (for example, creating shortcuts or setting file associations),
-the tool will list which ones didn’t work in the command window.
 
-You can also check the log file:
-       install_log.txt
-which is created automatically next to this script.
+┌───────────────────────────────────────────────────────────────────────────────┐
+│  📦 WHAT'S INCLUDED                                                           │
+└───────────────────────────────────────────────────────────────────────────────┘
 
-After Installation
-------------------
-Once everything is complete, you can:
-- Open Processing from your desktop shortcut
-- Open any .pde file directly (it should open in Processing)
-- Explore the "Template" and "Startech" folders for your first projects
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │ Component                │ Description                                  │
+  ├─────────────────────────────────────────────────────────────────────────┤
+  │ Processing 3.5.4         │ Full IDE with Java mode                      │
+  │ Startech Resources       │ Educational materials & examples             │
+  │ Template Folder          │ Starter files for lessons & projects         │
+  │ Minim Library            │ Audio library for sound projects             │
+  └─────────────────────────────────────────────────────────────────────────┘
 
-Tips
-----
-• Run the installer as Administrator if shortcuts or file association fail.
-• If you already have Processing installed, this version won’t overwrite it
-  — it just adds another local installation.
-• Check that minim is installed correctly with your pc configuration.
-• If .pde files are not associated with processing, Open the template.pde and choose open always with... and then go to processing and pick the version you downloaded.
 
----------------------------------------------
-Created by: Elia Elhadad
-Version: 1.1
----------------------------------------------
+┌───────────────────────────────────────────────────────────────────────────────┐
+│  🚀 INSTALLATION GUIDE                                                        │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+  STEP 1: FIND THE INSTALLER AND ADD IT TO THE PC
+  ─────────────────────
+    Copy the installer to your PC if you are using USB drive, If not continue to step 2.
+    (This will make the installation run faster).
+    Recommended locations:
+      • Desktop
+      • Documents folder
+      • Any folder you can easily find
+
+
+  STEP 2: RUN THE INSTALLER
+  ─────────────────────────
+    Graphical Installer:
+      Double-click:  Startech Installer.exe
+      
+    💡 Tip: Right-click → "Run as Administrator" for best results
+
+
+  STEP 3: WAIT FOR COMPLETION
+  ───────────────────────────
+    The installer will automatically:
+    
+      ✓ Extract Processing IDE to Program Files
+      ✓ Copy "Startech" folder to your Documents
+      ✓ Copy "Template" folder for your projects
+      ✓ Create desktop shortcuts
+      ✓ Associate .pde files with Processing
+
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│  ✅ AFTER INSTALLATION                                                        │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+  Your desktop will have new shortcuts:
+  
+    🖥️  Processing         - Launch the Processing IDE
+    📁  Startech           - Access educational resources
+    📁  Template           - Your project starter files
+
+  You can now:
+    • Double-click any .pde file to open it in Processing
+    • Start creating visual art and interactive programs
+    • Follow along with Startech lessons
+
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│  🔧 TROUBLESHOOTING                                                           │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+  ╔═══════════════════════════════════════════════════════════════════════════╗
+  ║ PROBLEM                      │ SOLUTION                                   ║
+  ╠═══════════════════════════════════════════════════════════════════════════╣
+  ║ Shortcuts not created        │ Run installer as Administrator             ║
+  ╠═══════════════════════════════════════════════════════════════════════════╣
+  ║ .pde files won't open        │ Right-click .pde file → "Open with..."    ║
+  ║                              │ → Browse to Processing.exe → Check         ║
+  ║                              │ "Always use this app"                      ║
+  ╠═══════════════════════════════════════════════════════════════════════════╣
+  ║ Audio not working            │ Verify Minim library is in Processing's   ║
+  ║ (Minim issues)               │ libraries folder. Check audio drivers.    ║
+  ╠═══════════════════════════════════════════════════════════════════════════╣
+  ║ Installation fails           │ 1. Check available disk space              ║
+  ║                              │ 2. Disable antivirus temporarily           ║
+  ║                              │ 3. Check install_log.txt for details       ║
+  ╠═══════════════════════════════════════════════════════════════════════════╣
+  ║ Already have Processing?     │ This creates a separate installation;      ║
+  ║                              │ your existing version won't be affected.   ║
+  ╚═══════════════════════════════════════════════════════════════════════════╝
+
+
+  📄 LOG FILE
+  ───────────
+  A detailed log is created at:  install_log.txt
+  Check this file if you encounter any issues during installation.
+
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│  🌐 LANGUAGE SUPPORT                                                          │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+  The graphical installer supports multiple languages:
+    • English (EN)
+    • עברית (Hebrew - HE)
+
+  Click the language toggle in the installer to switch languages.
+
+
+
+  📖 HELPFUL RESOURCES
+  ────────────────────
+    • Official Website:     https://processing.org
+    • Reference:            https://processing.org/reference
+    • Tutorials:            https://processing.org/tutorials
+    • Forum:                https://discourse.processing.org
+
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│  📝 NOTES FOR EDUCATORS                                                       │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+  • The Startech folder contains curriculum-aligned materials
+  • Template folder includes blank project starters
+  • All installations are self-contained (no registry pollution)
+  • Can be deployed via USB for computer lab setups
+  • Students can run Processing without admin rights after install
+
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│  ⚠️  KNOWN LIMITATIONS                                                        │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+  • Windows 64-bit only (32-bit not supported)
+  • Some antivirus software may flag the installer (false positive)
+  • Minim audio library requires compatible sound drivers
+  • Java is bundled with Processing; no separate install needed
+
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║                              ABOUT THIS PROJECT                               ║
+║                                                                               ║
+║  ───────────────────────────────────────────────────────────────────────────  ║
+║                                                                               ║
+║     Created by:     Elia Elhadad                                              ║
+║     Version:        1.0.0                                                      ║
+║     Built with:     Tauri + React + TypeScript                                ║
+║     License:        Educational Use                                           ║
+║                                                                               ║
+║  ───────────────────────────────────────────────────────────────────────────  ║
+║                                                                               ║
+║     For support or questions, contact your instructor.                        ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
