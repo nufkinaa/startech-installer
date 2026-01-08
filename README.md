@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-2.0-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Windows%2064--bit-0078D6?style=for-the-badge&logo=windows)
 ![Processing](https://img.shields.io/badge/Processing-3.5.4-00979D?style=for-the-badge)
 ![Built With](https://img.shields.io/badge/built%20with-Tauri%20%2B%20React-FFC131?style=for-the-badge&logo=tauri)
