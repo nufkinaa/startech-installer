@@ -75,7 +75,8 @@ Startech Installer.exe
 ```
 
 </td>
-<td width="50%">
+</tr>
+</table>
 
 > 💡 **Tip:** Right-click → **"Run as Administrator"** for best results
 
