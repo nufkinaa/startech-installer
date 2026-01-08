@@ -8,7 +8,7 @@
 ║   ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝          ║
 ║                                                                               ║
 ║                    PROCESSING AUTO-INSTALLER (64-bit)                         ║
-║                              Version 1.0.0                                      ║
+║                              Version 1.0.0                                    ║
 ║                                                                               ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
 
@@ -104,12 +104,12 @@
   ╠═══════════════════════════════════════════════════════════════════════════╣
   ║ Shortcuts not created        │ Run installer as Administrator             ║
   ╠═══════════════════════════════════════════════════════════════════════════╣
-  ║ .pde files won't open        │ Right-click .pde file → "Open with..."    ║
+  ║ .pde files won't open        │ Right-click .pde file → "Open with..."     ║
   ║                              │ → Browse to Processing.exe → Check         ║
   ║                              │ "Always use this app"                      ║
   ╠═══════════════════════════════════════════════════════════════════════════╣
-  ║ Audio not working            │ Verify Minim library is in Processing's   ║
-  ║ (Minim issues)               │ libraries folder. Check audio drivers.    ║
+  ║ Audio not working            │ Verify Minim library is in Processing's    ║
+  ║ (Minim issues)               │ libraries folder. Check audio drivers.     ║
   ╠═══════════════════════════════════════════════════════════════════════════╣
   ║ Installation fails           │ 1. Check available disk space              ║
   ║                              │ 2. Disable antivirus temporarily           ║
@@ -174,7 +174,7 @@
 ║  ───────────────────────────────────────────────────────────────────────────  ║
 ║                                                                               ║
 ║     Created by:     Elia Elhadad                                              ║
-║     Version:        1.0.0                                                      ║
+║     Version:        1.0.0                                                     ║
 ║     Built with:     Tauri + React + TypeScript                                ║
 ║     License:        Educational Use                                           ║
 ║                                                                               ║
